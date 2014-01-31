@@ -214,7 +214,7 @@ E
   describe "very long lines" do
     before(:each) { bundle :install }
     let(:long_string) do
-      "--with-xml2-include=/usr/pkg/include/libxml2 --with-xml2-lib=/usr/pkg/lib --with-xslt-dir=/usr/pkg"
+      "--with-xml2-include=/usr/pkg/include/libxml2 --with-xml2-lib=/usr/pkg/lib  --with-xslt-dir=/usr/pkg"
     end
 
     it "doesn't wrap values" do
